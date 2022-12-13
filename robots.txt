@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /include
+Sitemap: https://nomdedomaine.com/sitemap.xml

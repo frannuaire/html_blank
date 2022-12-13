@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Titre</title>
+    <meta name="description" content="Roughly 155 characters">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--open graph-->
+    <meta property="fb:admins" content="YourFacebookUsername" />
+    <meta property="og:title" content="titre" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nomdedomaine.com/" />
+    <meta property="og:image" content="https://nomdedomaine.com/images/monimage.jpg" />
+    <meta property="og:description" content="Description" />
+<!-- twitt card-->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@frannuaire">
+<meta name="twitter:title" content="Html sample">
+<meta name="twitter:description" content="projet html vide">
+<meta name="twitter:image" content="https://mondomaine.com/image.webp">
+
+
+    <!--CSS et script-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="./assets/js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap-grid.min.css"
+        integrity="sha512-JQksK36WdRekVrvdxNyV3B0Q1huqbTkIQNbz1dlcFVgNynEMRl0F8OSqOGdVppLUDIvsOejhr/W5L3G/b3J+8w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        footer {
+            position: absolute;
+            bottom: 0;
+            /* on le colle en bas */
+            width: 100%;
+            height: 100px;
+            /* Hauteur du pied de page */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Content -->
+    <div class="container">
+        <header>
+            <div id="logo">HTML</div>
+            <nav role="navigation">
+                <ul>
+                    <li><a href="/">Accueil</a>
+                    <li><a href="#">Page</a>
+                </ul>
+            </nav>
+        </header>
+        <main role="main" class="row">
+            <article class="col-md-12 col-sm-12 col-lg-4">
+                <h2>Title 1</h2>
+                <p>Content 1</p>
+            </article>
+            <article class="col-md-12 col-sm-12 col-lg-4">
+                <h2>Title 2</h2>
+                <p>Content 2</p>
+            </article>
+        </main>
+        <section class="row">
+            A group of related content 
+        </section>
+        <footer>
+            <p>&copy; Kévin FERRANDON</p>
+            <address>
+                Contact <a href="mailto:me@mondomaine.com" accesskey="m">me</a>
+            </address>
+        </footer>
+    </div>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "accueil",
+                    "item": "https://mondomaine.com"
+                }
+            ]
+        }
+        </script><!--BreadcrumbList json ld from schema.org -->
+</body>
+
+</html>
